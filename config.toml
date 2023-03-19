@@ -18,7 +18,7 @@ style = "github-dark"
 
 # Common parameters
 [params]
-since = 2022
+since = 2002
 enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
@@ -27,12 +27,12 @@ gravatar = "me@eastonman.com"
 [languages.en.params]
 author = "Easton Man"
 description = "Easton Man's Home Page"
-info = "Computer Architecture"
+info = "Humble student in Computer Architecture"
 
 [languages.zh.params]
 author = "满洋"
 description = "满洋的主页"
-info = ["计算机体系结构"]
+info = ["小学生 in 计算机体系结构"]
 
 
 [taxonomies]

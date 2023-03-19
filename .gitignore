@@ -1,5 +1,6 @@
 # Hugo
 .hugo_build.lock
+public/
 
 # Theme
 resources/_gen
