@@ -1,0 +1,64 @@
+baseURL = 'http://eastonman.com/'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+paginate = 20
+enableEmoji = true
+theme = 'hugo-coder'
+
+[languages]
+  [languages.en]
+    title = 'Easton Man'
+    languageName = ':us:'
+  [languages.zh]
+    languageName = ':cn:'
+    title = '满洋'
+
+[markup.highlight]
+style = "github-dark"
+
+# Common parameters
+[params]
+since = 2022
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
+gravatar = "me@eastonman.com"
+
+[languages.en.params]
+author = "Easton Man"
+description = "Easton Man's Home Page"
+info = "Computer Architecture"
+
+[languages.zh.params]
+author = "满洋"
+description = "满洋的主页"
+info = ["计算机体系结构"]
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/eastonman"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/EastonMan"
+
+
+[params.umami]
+  siteID = "e84e2652-4d63-4046-b658-2a8274278612"
+  serverURL = "https://stats.eastonman.com"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "https://blog.eastonman.com"
